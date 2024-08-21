@@ -1,5 +1,5 @@
 
-/*
+
 const textBox= document.getElementById("textBox")
 const toFahrenheit = document.getElementById("toFahrenheit")
 const toCelsius = document.getElementById("toCelsius")
@@ -27,15 +27,5 @@ function convert()
         result.textContent = "Select a unit"
     }
 }
-*/
 
 
-function combineString( ...Strings)
-{
-    return Strings.join(" ")
-}
-
-
-const fullname = combineString("Mr.", "Spongebob", "Squarepants", "III")
-
-console.log(fullname);
